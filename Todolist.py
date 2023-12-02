@@ -18,10 +18,9 @@ while True:
 
     elif user_command == "remove":
       if not add_task :
-        print("there are not tasks")
-        task = input("Enter your task what you want to remove it: ")
+        print("there are no tasks")
       else:
-        task = input("Enter your task: ")
+        task = input("Enter your task that you want remove: ")
         if task in add_task:
           add_task.remove(task)
           print("it removed")
